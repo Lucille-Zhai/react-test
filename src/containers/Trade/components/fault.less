@@ -1,0 +1,140 @@
+@import '../../../styles/base/index.less';
+.fault-continar {
+  overflow: hidden;
+
+  .select-group {
+    .retina-border();
+    height:.52rem;
+    padding:0 .15rem;
+    background: #fff;
+    padding-top:.08rem;
+    box-sizing: border-box;
+
+    &:after {
+      margin-left:.15rem;
+    }
+
+    &.placeholder-group {
+      padding-top:0;
+    }
+
+
+    .left-text {
+      width:3.3rem;
+      display: inline-block;
+      vertical-align: middle;
+
+      small {
+        font-size: 10px;
+        color: #999999;
+        line-height: 14px;
+      }
+
+      .text {
+        font-size: 15px;
+        color: #333333;
+        line-height: 19px;
+      }
+
+      .placeholder {
+        line-height: .52rem;
+        font-size: 15px;
+        color: #999999;
+        vertical-align: middle;
+        display: inline-block;
+      }
+    }
+
+    .select-group-icon {
+      width:.35rem;
+      vertical-align: middle;
+    }
+
+
+
+    &.full-group {
+      height:auto;
+      padding-bottom:.16rem;
+      padding-top:0;
+
+      &:after {
+        display: none;
+      }
+
+      small {
+        padding-top:.16rem;
+        padding-bottom:.08rem;
+        font-size:12px;
+        color:#999;
+        display: block;
+      }
+      .not-box {
+        width:100%;
+        height:.68rem;
+        background: #f8f8f8;
+        text-align: center;
+        line-height: .68rem;
+        color: #999999;
+      }
+
+      .list-box {
+        overflow: hidden;
+
+        .list {
+          width:100%;
+          height:.68rem;
+          border:1px solid #f8f8f8;
+          box-sizing: border-box;
+          margin-bottom:.08rem;
+          padding: .15rem;
+          background: #F8F8F8;
+
+          &:last-child {
+            margin-bottom:0;
+          }
+
+          &.active {
+            border-color: #FFE800;
+            background: #FFFBE2;
+          }
+
+          .left {
+            width:2.5rem;
+            display: inline-block;
+
+            p {
+              font-size: 15px;
+              color: #333333;
+              line-height: 17px;
+            }
+
+            span {
+              font-size: 13px;
+              color: #666666;
+              line-height: 17px;
+            }
+          }
+          .right {
+            width:.6rem;
+            text-align: right;
+            display: inline-block;
+
+            p {
+              font-size: 13px;
+              color: #666666;
+              line-height: 17px;
+            }
+
+            span {
+              font-size: 13px;
+              color: #FF6D1A;
+              line-height: 17px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}

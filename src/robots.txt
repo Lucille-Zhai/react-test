@@ -1,0 +1,12 @@
+# robots.txt for http://www.aihuishou.com
+# 2017/9/13
+
+User-agent: *
+
+Disallow: .jpg$
+Disallow: .jpeg$
+Disallow: .gif$
+Disallow: .png$
+Disallow: .bmp$
+Disallow: .css$
+Allow: html$
