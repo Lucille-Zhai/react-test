@@ -1,9 +1,0 @@
-dist/*
-node_modules/*
-.babelrc
-package.json
-postcss.config.js
-webpack.common.config.js
-webpack.config.js
-webpack.dev.config.js
-.eslintrc
